@@ -1,8 +1,8 @@
 ﻿// Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.
-int SumOfDigits (string number)
+int SumOfDigits(string number)
 {
-int summa = 0;
-for (int i = 0; i<number.Length; i++)
+    int summa = 0;
+    for (int i = 0; i < number.Length; i++)
     {
         int digit = int.Parse(number[i].ToString());
         summa += digit;
